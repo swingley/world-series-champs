@@ -38,7 +38,7 @@ class App extends Component {
       <div className="App">
         <div className="question">
           <p className="App-intro">
-            Excluding the yankees, there have been {this.state.total} World Series winners.
+            Excluding the Yankees, there have been {this.state.total} World Series winners.
           </p>
 
           {remaining > 0 &&
